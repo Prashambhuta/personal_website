@@ -1,20 +1,52 @@
-.navbar-1 {
+.navbar-1, .navbar-2 {
     padding-left: 0px;
     display: inline-flex;
-    margin: 20px;
+    margin: 1rem;
 }
 
+#body {
+    min-height: 240px;
+    text-align: left;
+}
 
+.navigation, .footer {
+    background-color: white;
+    text-align: left;
+}
 
-.navigation {
-    background-color: whitesmoke;
+.header-title {
+    font-size: large;
+    font-weight: bold;
+    margin: 1.5rem;
+    text-align: left;
+    min-height: 120px;
 }
 
 .header-content {
-    font-size: large;
-    font-weight: bold;
+    margin: 1.5rem;
+    height: 100%;
 }
 
-.content {
-    margin: 1.5rem;
+.footer {
+    bottom: 0px;
+    width: 100%;
+    height: auto;
+}
+
+.footer-end {
+    text-align: left;
+}
+
+hr {
+    border: 0.1rem solid gold;
+    max-width: 360px;
+}
+
+.footer-body::before, #body::before {
+    content: "";
+    border: 2px solid greenyellow;
+    max-width: fit-content;
+    display: block;
+    margin-left: 30px;
+    min-width: 240px;
 }
