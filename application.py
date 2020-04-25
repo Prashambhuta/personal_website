@@ -7,12 +7,11 @@ app = Flask(__name__)
 def home():
     return render_template("index.html")
 
-@app.route("/about", methods=['GET'])
+@app.route("/about.html")
 def about():
-    if request.method == 'GET':
-        return render_template("about.html")
+    return render_template("about.html")
 
-@app.route("/resume")
+@app.route("/resume.html")
 def resume():
     return render_template("resume.html")
 
