@@ -10,7 +10,7 @@ def home():
 @app.route("/about", methods=['GET'])
 def about():
     if request.method == 'GET':
-        return render_template("about.html")
+        return render_template("index.html")
 
 @app.route("/resume")
 def resume():
