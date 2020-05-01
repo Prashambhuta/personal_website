@@ -1,26 +1,7 @@
-.navbar-1, .navbar-2 {
-  padding-left: 0px;
-  display: inline-flex;
-  margin: 1rem; }
-
-#body {
-  min-height: 240px;
-  text-align: left; }
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Source+Sans+Pro:wght@400;700&display=swap");
 .navigation, .footer {
   background-color: white;
   text-align: left; }
-
-.header-title {
-  font-size: large;
-  font-weight: bold;
-  margin: 1.5rem;
-  text-align: left;
-  min-height: 120px; }
-
-.header-content {
-  margin: 1.5rem;
-  height: 100%; }
 
 .footer {
   bottom: 0px;
@@ -41,5 +22,34 @@ hr {
   display: block;
   margin-left: 30px;
   min-width: 240px; }
+
+.content-body {
+  font-family: "Source Sans Pro", sans-serif; }
+
+#body {
+  min-height: 240px;
+  text-align: left; }
+
+.navbar-1, .navbar-2 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+  padding-left: 0px;
+  display: inline-flex;
+  margin: 1rem; }
+
+.header-title {
+  font-family: "Poppins", sans-serif;
+  font-size: large;
+  font-weight: bold;
+  margin: 1.5rem;
+  text-align: left; }
+
+.header-content {
+  margin: 1.5rem;
+  height: 100%; }
+
+.header-body {
+  margin: 1.5rem;
+  text-align: left; }
 
 /*# sourceMappingURL=main.css.map */
